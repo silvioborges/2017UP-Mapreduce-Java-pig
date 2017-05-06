@@ -40,13 +40,13 @@ Vamos desenvolver alguns exercícios que valerão nota. Alguns exemplos de exerc
 * Fornecer uma palavra  e mostrar em que arquivos encontramos a palavra e a quantidade de corregências.
 * Encontrar as 1.500 palavras mais usadas em todo os livros.
 * Encontrar as 1500 palavras mais usadas em 1 determinado livro.
-   * Cristiane-Tiyomi
-   * Marco-Everton
+  * Cristiane-Tiyomi
+  * Marco-Everton
 *	Encontrar as 1500 palavras menos usadas em 1 em toda a base.
-   * Cristiano-Gilmar
-*	Encontrar o vocabulário comum de 1.500 palavras entre 2 livros 
-   * Joceir-JoseRodrigues 
-   * Adriano-Andrematsuda 
+  * Cristiano-Gilmar
+*	Encontrar o vocabulário comum de 1.500 palavras entre 2 livros
+  * Joceir-JoseRodrigues 
+  * Adriano-Andrematsuda 
 * Encontrar o vocabulário de palavras diferente  entre 2 livros removendo as palavras que forem encontradas nos dois livros. 
    * Lucas
 
