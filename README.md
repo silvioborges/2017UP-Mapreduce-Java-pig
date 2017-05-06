@@ -15,7 +15,8 @@ Os trabalhos deverão ser realizados em duplas (desenvolvedor + cientista/analis
   * Pesquisa de melhores links a serem estudados do seu interesse que seja relevante a disciplina
   * Entrega dos trabalhos escritos por  commit no git ou email (dados dos alunos devem estar completos)
   * Avaliação : será pontualidade na entrega, quantidade erros encontrados
-*	Trabalho de mapreduce
+
+*	Trabalho de mapreduce (peso 50%)
   * Elaboração de alguma sugestão de análise.
   *	Entrega dos mapreduce com código fontes, binários e orientação de execução.
   * Entrega dos arquivos com os resultados da execução
