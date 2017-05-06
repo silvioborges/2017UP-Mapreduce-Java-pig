@@ -1,6 +1,31 @@
 # 2017UP-Mapreduce-Java-pig
 Repositorio para a disciplina 2017 Mapreduce 
 
+## Objetivo 
+Compreender a desenvolvimento de soluções baseada em MapReduce com Java, Hive, Pig, Spark
+
+## Ementa
+*	Algoritmos por map-reduce para grandes volumes de dados.
+*	Apache Haddop e o EcoSistema.
+*	Introdução a Programação de mapreduce com Hive,Pig.
+
+## Avaliação
+Os trabalhos deverão ser realizados em duplas (desenvolvedor + cientista/analista). 
+1.	Trabalho escrito (peso 50%)
+ 1. Pesquisa de melhores links a serem estudados do seu interesse que seja relevante a disciplina
+ 1. Entrega dos trabalhos escritos por  commit no git ou email (dados dos alunos devem estar completos)
+ 1.	Avaliação : será pontualidade na entrega, quantidade erros encontrados
+1.	Trabalho de mapreduce
+ 1.	Elaboração de alguma sugestão de análise.
+ 1.	Entrega dos mapreduce com código fontes, binários e orientação de execução.
+ 1. Entrega dos arquivos com os resultados da execução
+
+## Bases de Dados
+Aqui você encontrar a base de dados para os exercícios
+* Livros: https://dl.dropboxusercontent.com/u/10599684/pos-bigdata/lit2go.ok.tar.gz
+* Legendas:  https://dl.dropboxusercontent.com/u/10599684/pos-bigdata/series.rar
+
+
 
 ## Exercícios
 Vamos desenvolver alguns exercícios que valerão nota. Alguns exemplos de exercícios a serem entregues.
@@ -29,3 +54,5 @@ Vamos desenvolver alguns exercícios que valerão nota. Alguns exemplos de exerc
 * Deverão ser feitas dentro do diretorio /Entregas/Aluno1-aluno2
 * O redmi deverá ter uma explicacao de como executar programa.
 
+Professor
+Alessandro de Oliveira Binhara
