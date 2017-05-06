@@ -15,11 +15,10 @@ Os trabalhos deverão ser realizados em duplas (desenvolvedor + cientista/analis
   * Pesquisa de melhores links a serem estudados do seu interesse que seja relevante a disciplina
   * Entrega dos trabalhos escritos por  commit no git ou email (dados dos alunos devem estar completos)
   * Avaliação : será pontualidade na entrega, quantidade erros encontrados
-
 *	Trabalho de mapreduce (peso 50%)
-  * Elaboração de alguma sugestão de análise.
-  *	Entrega dos mapreduce com código fontes, binários e orientação de execução.
-  * Entrega dos arquivos com os resultados da execução
+   * Elaboração de alguma sugestão de análise.
+   * Entrega dos mapreduce com código fontes, binários e orientação de execução.
+   * Entrega dos arquivos com os resultados da execução
 
 ## Bases de Dados
 Aqui você encontrar a base de dados para os exercícios
@@ -41,15 +40,15 @@ Vamos desenvolver alguns exercícios que valerão nota. Alguns exemplos de exerc
 * Fornecer uma palavra  e mostrar em que arquivos encontramos a palavra e a quantidade de corregências.
 * Encontrar as 1.500 palavras mais usadas em todo os livros.
 * Encontrar as 1500 palavras mais usadas em 1 determinado livro.
-  * Cristiane-Tiyomi
-  * Marco-Everton
+   * Cristiane-Tiyomi
+   * Marco-Everton
 *	Encontrar as 1500 palavras menos usadas em 1 em toda a base.
-  * Cristiano-Gilmar
+   * Cristiano-Gilmar
 *	Encontrar o vocabulário comum de 1.500 palavras entre 2 livros 
-  * Joceir-JoseRodrigues 
-  * Adriano-Andrematsuda 
-*	Encontrar o vocabulário de palavras diferente  entre 2 livros removendo as palavras que forem encontradas nos dois livros. 
-  * Lucas
+   * Joceir-JoseRodrigues 
+   * Adriano-Andrematsuda 
+* Encontrar o vocabulário de palavras diferente  entre 2 livros removendo as palavras que forem encontradas nos dois livros. 
+   * Lucas
 
 ## Entregas
 * Deverão ser feitas dentro do diretorio /Entregas/Aluno1-aluno2
