@@ -2,7 +2,7 @@
 Repositorio para a disciplina 2017 Mapreduce 
 
 
-##Exercícios
+## Exercícios
 Vamos desenvolver alguns exercícios que valerão nota. Alguns exemplos de exercícios a serem entregues.
 * Contar todas as ocorrências de palavras ( removendo as preposições e coisas assim)
   * Andre-Fernado (Conversao de html)
@@ -25,7 +25,7 @@ Vamos desenvolver alguns exercícios que valerão nota. Alguns exemplos de exerc
 *	Encontrar o vocabulário de palavras diferente  entre 2 livros removendo as palavras que forem encontradas nos dois livros. 
   * Lucas
 
-##Entregas
+## Entregas
 * Deverão ser feitas dentro do diretorio /Entregas/Aluno1-aluno2
 * O redmi deverá ter uma explicacao de como executar programa.
 
