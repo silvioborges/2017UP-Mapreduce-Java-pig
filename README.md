@@ -11,14 +11,14 @@ Compreender a desenvolvimento de soluções baseada em MapReduce com Java, Hive,
 
 ## Avaliação
 Os trabalhos deverão ser realizados em duplas (desenvolvedor + cientista/analista). 
-1.	Trabalho escrito (peso 50%)
- 1. Pesquisa de melhores links a serem estudados do seu interesse que seja relevante a disciplina
- 1. Entrega dos trabalhos escritos por  commit no git ou email (dados dos alunos devem estar completos)
- 1.	Avaliação : será pontualidade na entrega, quantidade erros encontrados
-1.	Trabalho de mapreduce
- 1.	Elaboração de alguma sugestão de análise.
- 1.	Entrega dos mapreduce com código fontes, binários e orientação de execução.
- 1. Entrega dos arquivos com os resultados da execução
+* Trabalho escrito (peso 50%)
+  * Pesquisa de melhores links a serem estudados do seu interesse que seja relevante a disciplina
+  * Entrega dos trabalhos escritos por  commit no git ou email (dados dos alunos devem estar completos)
+  * Avaliação : será pontualidade na entrega, quantidade erros encontrados
+*	Trabalho de mapreduce
+  * Elaboração de alguma sugestão de análise.
+  *	Entrega dos mapreduce com código fontes, binários e orientação de execução.
+  * Entrega dos arquivos com os resultados da execução
 
 ## Bases de Dados
 Aqui você encontrar a base de dados para os exercícios
@@ -45,10 +45,10 @@ Vamos desenvolver alguns exercícios que valerão nota. Alguns exemplos de exerc
 *	Encontrar as 1500 palavras menos usadas em 1 em toda a base.
   * Cristiano-Gilmar
 *	Encontrar o vocabulário comum de 1.500 palavras entre 2 livros 
- * Joceir-JoseRodrigues 
- * Adriano-Andrematsuda 
+  * Joceir-JoseRodrigues 
+  * Adriano-Andrematsuda 
 *	Encontrar o vocabulário de palavras diferente  entre 2 livros removendo as palavras que forem encontradas nos dois livros. 
- * Lucas
+  * Lucas
 
 ## Entregas
 * Deverão ser feitas dentro do diretorio /Entregas/Aluno1-aluno2
