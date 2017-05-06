@@ -1,0 +1,1 @@
+$ sudo yum clean all ; sudo yum install kafka ; sudo yum install kafka-server ; sudo service kafka-server start
