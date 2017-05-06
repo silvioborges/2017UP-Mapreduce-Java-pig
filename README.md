@@ -45,10 +45,10 @@ Vamos desenvolver alguns exercícios que valerão nota. Alguns exemplos de exerc
 *	Encontrar as 1500 palavras menos usadas em 1 em toda a base.
   * Cristiano-Gilmar
 *	Encontrar o vocabulário comum de 1.500 palavras entre 2 livros 
-  * Joceir-JoseRodrigues 
-  * Adriano-Andrematsuda 
+ * Joceir-JoseRodrigues 
+ * Adriano-Andrematsuda 
 *	Encontrar o vocabulário de palavras diferente  entre 2 livros removendo as palavras que forem encontradas nos dois livros. 
-  * Lucas
+ * Lucas
 
 ## Entregas
 * Deverão ser feitas dentro do diretorio /Entregas/Aluno1-aluno2
