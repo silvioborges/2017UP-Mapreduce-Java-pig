@@ -15,3 +15,5 @@ Trabalhos desenvolvidos:
 Linguagens utilizadas:
 
 Shell Script para tratar textos html e Pig latin
+
+Colocar aqui como faz para executar seu script
