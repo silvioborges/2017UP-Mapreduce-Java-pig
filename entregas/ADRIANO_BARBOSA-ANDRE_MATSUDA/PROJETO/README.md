@@ -11,13 +11,13 @@
 
 ### Pré-requisito
 #### 1. Executar passos na raiz deste projeto
-#### 2. Extrair conteúdo do livros para arquivos .txt
-> Rodar o comando: java -jar HtmlToText.jar path_livro
+#### 2. Extrair conteúdo do livros para arquivos .txt com [HtmlToText](https://github.com/adrianosb/maprecude_team_adriano_barbosa_and_andre_matsuda/tree/master/HtmlToText)
+Rodar o comando: java -jar HtmlToText.jar path_livro
 ```sh
 $ java -jar HtmlToText.jar ./HtmlToText/lit2go.ok
 ```
-#### 3. Extrair conteúdo das legendas das séries para arquivos .txt
-> Rodar o comando: java -jar SrtToText.jar path_legendas_series
+#### 3. Extrair conteúdo das legendas das séries para arquivos .txt com [SrtToText](https://github.com/adrianosb/maprecude_team_adriano_barbosa_and_andre_matsuda/tree/master/SrtToText)
+Rodar o comando: java -jar SrtToText.jar path_legendas_series 
 ```sh
 $ java -jar SrtToText.jar ./SrtToText/series
 ```
