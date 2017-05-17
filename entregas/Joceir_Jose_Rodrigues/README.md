@@ -17,3 +17,7 @@ Linguagens utilizadas:
 Shell Script para tratar textos html e Pig latin
 
 Colocar aqui como faz para executar seu script
+
+
+Avaliacao
+* Onde esta o readme.md e3xplicando o trabalho e como rodar os scripts? 
