@@ -8,7 +8,7 @@
 * spark-shell 
 
 ##### Exercicio:
-* Encontrar as 1500 palavras menos usadas em 1 em toda a base.
+* Encontrar as 1500 palavras menos usadas em toda a base.
 
 ###### Execure o algoritimo a seguir:
 
