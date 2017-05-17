@@ -12,3 +12,8 @@ Exercicio:
  - Foi escolhido o exercicio 09 (Encontrar o vocabulário de palavras diferente entre 2 livros removendo as palavras que forem encontradas nos dois livros).
  - Executar com `spark-submit --master yarn --deploy-mode client --executor-memory 1g --name exercise09 --conf "spark.app.id=exercise09" exercise09.py 'file1' 'file2'`.
  - A saida sera gerada em exercise09-out
+ 
+ Avaliacao
+ * Onde esta o resultado do processamento?
+ * Como posso parametrizar o livros que posso ler ?
+ 
