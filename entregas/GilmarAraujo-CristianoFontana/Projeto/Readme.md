@@ -6,6 +6,10 @@
 
 ##### Inicia spark shell: 
 * spark-shell 
+
+##### Exercicio:
+* Encontrar as 1500 palavras menos usadas em 1 em toda a base.
+
 ###### Execure o algoritimo a seguir:
 
 val rdd = sc.textFile("hdfs://localhost:8020/user/cloudera/input/*") val rddone = sc.textFile("hdfs://localhost:8020/user/cloudera/input/") val topWordCount = rdd.flatMap(str => str.split(" ")).filter(!_.isEmpty).map(word => (word,1)).reduceByKey( _ + _ ).map{case (word, count) => (count, word)}.sortByKey() topWordCount.saveAsTextFile("hdfs://localhost:8020/user/cloudera/output")
