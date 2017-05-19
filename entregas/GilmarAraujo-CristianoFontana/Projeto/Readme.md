@@ -1,4 +1,4 @@
-#### O exemplo a seguir foi executado em uma VM Cloudera, carregando arquivos .txt de livros extraidos de paginas html no Hadoop Distributed File System (HDFS). Usando linguagem scala no Apache Spark.
+#### Segue abaixo os  [exercícios](https://github.com/POSBIGDATA/2017UP-Mapreduce-Java-pig/blob/master/entregas/GilmarAraujo-CristianoFontana/exercicios.jpg?raw=true)  VM Cloudera, carregando arquivos .txt de livros extraidos de paginas html no Hadoop Distributed File System (HDFS). Usando linguagem scala no Apache Spark.
 
 </br>
 <p align="justify"> 
