@@ -1,6 +1,5 @@
 #### O exemplo a seguir foi executado em uma VM Cloudera, carregando arquivos .txt de livros extraidos de paginas html no Hadoop Distributed File System (HDFS). Usando linguagem scala no Apache Spark.
 
-### Some examples in terms of use Apache Spark with Scala language
 </br>
 <p align="justify"> 
 First of all, you should download of Cloudera VM. After that, you have  to put your files (txt) into the Hadoop Distributed File System (HDFS). 
