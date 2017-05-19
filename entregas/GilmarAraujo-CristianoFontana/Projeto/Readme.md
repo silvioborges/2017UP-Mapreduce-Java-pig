@@ -1,23 +1,16 @@
 #### O exemplo a seguir foi executado em uma VM Cloudera, carregando arquivos .txt de livros extraidos de paginas html no Hadoop Distributed File System (HDFS). Usando linguagem scala no Apache Spark.
+</br>
+<p align="justify"> 
+First of all, you should download of Cloudera VM. After that, you have  to put your files (txt) into the Hadoop Distributed File System (HDFS). 
 
-##### Exemplo: 
-* hdfs dfs -copyFromLocal home/cloudera/input 
-* hdfs dfs -ls /user/cloudera/input
+For example:</br>
+#hdfs dfs -copyFromLocal /home/cloudera/input </br>
+#hdfs dfs -ls /user/cloudera/input
 
-##### Inicia spark shell: 
-* spark-shell 
-
-##### Exercicio:
-* Encontrar as 1500 palavras menos usadas em toda a base.
-
-###### Execure o algoritimo a seguir:
-
-```
-val rdd = sc.textFile("hdfs://localhost:8020/user/cloudera/input/*") 
-val rddone = sc.textFile("hdfs://localhost:8020/user/cloudera/input/") 
-val topWordCount = rdd.flatMap(str => str.split(" ")).filter(!_.isEmpty).map(word => (word,1)).reduceByKey( _ + _ ).map{case (word, count) => (count, word)}.sortByKey() topWordCount.saveAsTextFile("hdfs://localhost:8020/user/cloudera/output")
-
-topWordCount.take(1500).foreach(x => println(x))
+Then, start the Spark Shell: </br>
+#spark-shell
+</br>
+and, execute the algorithm bellow.
 ```
 </br> </br>
 1 - Count all occurrences of words (removing prepositions and things like that). </br> </br>
