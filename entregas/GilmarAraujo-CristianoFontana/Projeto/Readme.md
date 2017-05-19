@@ -1,4 +1,4 @@
-#### Segue abaixo os exercícios [1](https://github.com/POSBIGDATA/2017UP-Mapreduce-Java-pig/blob/master/entregas/GilmarAraujo-CristianoFontana/exercicios.jpg?raw=true) [2](https://github.com/POSBIGDATA/2017UP-Mapreduce-Java-pig/blob/master/entregas/GilmarAraujo-CristianoFontana/execiciosc.jpg?raw=true) desenvolvidos através do uso da VM Cloudera, onde é realizado a cargo dos dados no sistema de arquivos HDFS, usando linguagem scala no Apache Spark.
+#### Segue abaixo os exercícios [1](https://github.com/POSBIGDATA/2017UP-Mapreduce-Java-pig/blob/master/entregas/GilmarAraujo-CristianoFontana/exercicios.jpg?raw=true) e [2](https://github.com/POSBIGDATA/2017UP-Mapreduce-Java-pig/blob/master/entregas/GilmarAraujo-CristianoFontana/execiciosc.jpg?raw=true) desenvolvidos através do uso da VM Cloudera, onde é realizado a cargo dos dados no sistema de arquivos HDFS, usando linguagem scala no Apache Spark.
 
 </br>
 <p align="justify"> 
