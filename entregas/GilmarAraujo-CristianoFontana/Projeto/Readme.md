@@ -1,9 +1,11 @@
 #### O exemplo a seguir foi executado em uma VM Cloudera, carregando arquivos .txt de livros extraidos de paginas html no Hadoop Distributed File System (HDFS). Usando linguagem scala no Apache Spark.
+
+### Some examples in terms of use Apache Spark with Scala language
 </br>
 <p align="justify"> 
 First of all, you should download of Cloudera VM. After that, you have  to put your files (txt) into the Hadoop Distributed File System (HDFS). 
 
-For example:
+For example:</br>
 #hdfs dfs -copyFromLocal /home/cloudera/input </br>
 #hdfs dfs -ls /user/cloudera/input
 
@@ -11,7 +13,6 @@ Then, start the Spark Shell: </br>
 #spark-shell
 </br>
 and, execute the algorithm bellow.
-```
 </br> </br>
 1 - Count all occurrences of words (removing prepositions and things like that). </br> </br>
 val text = sc.textFile("hdfs://localhost:8020/user/cloudera/input/text.txt").cache()</br>
