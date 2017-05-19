@@ -3,7 +3,7 @@
 <p align="justify"> 
 First of all, you should download of Cloudera VM. After that, you have  to put your files (txt) into the Hadoop Distributed File System (HDFS). 
 
-For example:</br>
+For example:
 #hdfs dfs -copyFromLocal /home/cloudera/input </br>
 #hdfs dfs -ls /user/cloudera/input
 
