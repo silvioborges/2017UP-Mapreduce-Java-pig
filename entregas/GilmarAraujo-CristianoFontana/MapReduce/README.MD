@@ -1,7 +1,6 @@
 
 ## An introduction to the basics of MapReduce using Hadoop and Java
 ___
-## We can see an example of mapreduce through the execution of the jars:
 
 
 WordCountPath.jar and wordcountcap.jar </br>
