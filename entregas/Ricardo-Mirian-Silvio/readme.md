@@ -1,7 +1,7 @@
 
 * Link do artigo traduzido: https://software.intel.com/sites/default/files/article/402274/etl-big-data-with-hadoop.pdf
 
-* Nosso desafio:  Contar todoas as palavras de um livo.
+* Nosso desafio:  Contar todas as palavras de um livro.
 
 * Livro escolhido para teste: The-adventure.txt
 
