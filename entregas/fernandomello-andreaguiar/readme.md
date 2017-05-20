@@ -70,7 +70,7 @@ hadoop \
 | -D mapreduce.job.name="Hadoop_Streaming_WordCount" | Define o nome do Job |
 | -D mapreduce.map.memory.mb=4096 | Define a memória para execução do MapReduce. 4096mb será necessário para a execução deste exercício |
 | -D mapred.reduce.tasks=1 | Define a quantidade de Reduces do JOB. 1 Reduce é ideal para a base de dados utilizada neste exercício |
-| -mapper "python3 /home/cloudera/bigdata/hadoop_streaming_mapred/countMap3.py | sort" | Executa o arquivo countMap.py apontando o caminho completo até o arquivo. Este script Python define o escopo do Map |
+| -mapper "python3 /home/cloudera/bigdata/hadoop_streaming_mapred/countMap3.py &#124; sort" | Executa o arquivo countMap.py apontando o caminho completo até o arquivo. Este script Python define o escopo do Map |
 | -reducer "python3 /home/cloudera/bigdata/hadoop_streaming_mapred/countReduce3.py" | Executa o arquivo countReduce.py apontando o caminho completo até o arquivo. Este script Python define o escopo do Reduce |
 | -input "/caminhoDiretorioNoHDFS/livros.txt" | Define o arquivo que será processado no MapReduce. Informar aqui o caminho até o arquivo que foi colocado no HDFS no passo anterior e que contém o conteúdo dos livros |
 | -output "/caminhoDiretorioNoHDFS/wordcount_livros/ | Define o caminho no HDFS onde o Hadoop colocará o arquivo contendo a contagem de palavras |
