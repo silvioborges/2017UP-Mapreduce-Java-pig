@@ -21,11 +21,6 @@ Foi utilizada a base de dados do site lit2go que contém livros em arquivos HTML
 ## Pré-Requisitos
  - Para realizar a extração do conteúdos dos arquivos HTML da base de dados o código Python foi desenvolvido na versão 3.4, portando Python3.4 (ou superior) é necessário para sua execução
 - As bibliotecas Python BS4, NLTK, REQUESTS são necessárias para a execução dos códigos. Instrução para instalação:
-- **INSTALAÇÃO NO PYTHON 2.7:**
-  - sudo pip install -U nltk
-  - sudo pip install requests
-  -- após a instalação das 2 bibliotecas acima baixe a base de dados do nltk conforme descrito na documentação da biblioteca no seguinte link: http://www.nltk.org/data.html
-  - sudo pip install beautifulsoup4
 - **INSTALAÇÃO NO PYTHON 3.4:**
   - sudo pip3 install -U nltk
   - sudo pip3 install requests
@@ -53,15 +48,15 @@ hdfs dfs -mkdir /caminhoDiretorioNoHDFS
 hdfs dfs -put /caminhoLocalParaOArquivoTXT /caminhoDiretorioNoHDFS
 ```
 - Executar o Hadoop Streaming referenciando os arquivos **countMap.py** e **reduceMap.py**. Conforme abaixo:
-(*Atenção ambos arquivos foram desenvolvidos utilizando Python2 e portanto deverão ser executados também nesta versão). 
+(*Atenção ambos arquivos foram desenvolvidos utilizando Python3 e portanto deverão ser executados também nesta versão). 
 ```sh
 hadoop \
     jar /usr/lib/hadoop-mapreduce/hadoop-streaming-*.jar \
     -D mapreduce.job.name="Hadoop_Streaming_WordCount" \
     -D mapreduce.map.memory.mb=4096 \
     -D mapred.reduce.tasks=1 \
-    -mapper "python /home/cloudera/bigdata/hadoop_streaming_mapred/countMap.py" \
-    -reducer "python /home/cloudera/bigdata/hadoop_streaming_mapred/countReduce.py" \
+    -mapper "python3 /home/cloudera/bigdata/hadoop_streaming_mapred/countMap.py" \
+    -reducer "python3 /home/cloudera/bigdata/hadoop_streaming_mapred/countReduce.py" \
     -input "/caminhoDiretorioNoHDFS/livros.txt" \
     -output "/caminhoDiretorioNoHDFS/wordcount_livros/"
 ```
@@ -75,8 +70,8 @@ hadoop \
 | -D mapreduce.job.name="Hadoop_Streaming_WordCount" | Define o nome do Job |
 | -D mapreduce.map.memory.mb=4096 | Define a memória para execução do MapReduce. 4096mb será necessário para a execução deste exercício |
 | -D mapred.reduce.tasks=1 | Define a quantidade de Reduces do JOB. 1 Reduce é ideal para a base de dados utilizada neste exercício |
-| -mapper "python /home/cloudera/bigdata/hadoop_streaming_mapred/countMap.py" | Executa o arquivo countMap.py apontando o caminho completo até o arquivo. Este script Python define o escopo do Map |
-| -reducer "python /home/cloudera/bigdata/hadoop_streaming_mapred/countReduce.py" | Executa o arquivo countReduce.py apontando o caminho completo até o arquivo. Este script Python define o escopo do Reduce |
+| -mapper "python3 /home/cloudera/bigdata/hadoop_streaming_mapred/countMap3.py" | Executa o arquivo countMap.py apontando o caminho completo até o arquivo. Este script Python define o escopo do Map |
+| -reducer "python3 /home/cloudera/bigdata/hadoop_streaming_mapred/countReduce3.py" | Executa o arquivo countReduce.py apontando o caminho completo até o arquivo. Este script Python define o escopo do Reduce |
 | -input "/caminhoDiretorioNoHDFS/livros.txt" | Define o arquivo que será processado no MapReduce. Informar aqui o caminho até o arquivo que foi colocado no HDFS no passo anterior e que contém o conteúdo dos livros |
 | -output "/caminhoDiretorioNoHDFS/wordcount_livros/ | Define o caminho no HDFS onde o Hadoop colocará o arquivo contendo a contagem de palavras |
 - Após o processamento vá até a pasta wordcount_livros dentro do diretório criado no HDFS nos passos anteriores e abra o arquivo **part-00000** para visualizar a contagem de palavras. 
