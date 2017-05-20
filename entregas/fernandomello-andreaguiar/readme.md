@@ -22,10 +22,18 @@ Foi utilizada a base de dados do site lit2go que contém livros em arquivos HTML
  - Para realizar a extração do conteúdos dos arquivos HTML da base de dados o código Python foi desenvolvido na versão 3.4, portando Python3.4 (ou superior) é necessário para sua execução
 - As bibliotecas Python BS4, NLTK, REQUESTS são necessárias para a execução dos códigos. Instrução para instalação:
 - **INSTALAÇÃO NO PYTHON 3.4:**
+  - sudo pip3 install beautifulsoup4
   - sudo pip3 install -U nltk
   - sudo pip3 install requests
- -- após a instalação das 2 bibliotecas acima baixe a base de dados do nltk conforme descrito na documentação da biblioteca no seguinte link: http://www.nltk.org/data.html
-  - sudo pip3 install beautifulsoup4
+  - após a instalação das 2 bibliotecas acima baixe a base de dados do nltk conforme descrito na documentação da biblioteca no seguinte link: http://www.nltk.org/data.html
+  - é importante que o usuário do YARN tenha permissão de gravação na pasta /HOME do linux
+  - as bases necessárias para a execução deste projeto são: **'punkt'** e **'averaged_perceptron_tagger'**. Elas poderão ser instaladas a partir do código Python da seguinte forma:
+```sh 
+nltk.download('punkt')
+nltk.download('averaged_perceptron_tagger')
+ ```
+ 
+
 
 ## **Instruções de execução**
 - Colocar os arquivos do repositório na mesma pasta.
