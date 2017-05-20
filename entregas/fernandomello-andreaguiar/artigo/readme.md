@@ -4,14 +4,14 @@
 Contar a ocorrência de palavras contidas nos livros do site lit2go, eliminando as preposicoes encontradas e exibir de forma ordenada pelo número de ocorrências.
 
 ## Origem dos dados
-Foi utilizada a base de dados do site lit2go que contém livros em arquivos HTML.
+Foi utilizada uma amostra da base de dados do site lit2go que contém livros em arquivos HTML.
 
 ## Etapas necessárias
  - Extrair o texto de cada um dos livros presentes nos arquivos HTML e gravar em um único arquivo TXT
  - Contar palavras executando o MapReduce do Hadoop Streaming
 
 ## Arquivos do repositório
- - **lit2go.ok.tar.gz** - Contém a base de dados conforme descrito acima em "Origem dos dados"
+ - **lit2go.ok.rar** - Contém a base de dados conforme descrito acima em "Origem dos dados"
  - **html2text.py** - Programa Python que extrai o texto dos livros contidos na base e devolve um arquivo TXT contendo o conteúdo de todos os livros, livre de preposições
  - **countMap.py** - Programa Python que manipula o Mapper do MapReduce
  - **countReduce.py** - Programa Python que manipula o Reducer do MapReduce
