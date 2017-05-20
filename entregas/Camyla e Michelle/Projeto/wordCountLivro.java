@@ -24,15 +24,17 @@ public class WordCountLivro {
 					"around", "before", "by", "between", "for", "from", "to",
 					"against", "around", "near", "and" };
 
+			
 			String arquivo = value.toString();
 			// split por | para pegar o nome do livro
 			String[] titulo = arquivo.split("\\|");
 			// Segunda posição do array
-			String nomeLivro = titulo[2];
-			// split por espaço para quebrar por palavras
-			String line = value.toString();
-			String[] values = line.split(" ");
-
+			String nomeLivro = titulo[1];
+			//corpo livro
+			String texto = titulo[3];		
+				
+			String[] values = texto.split(" ");
+						
 			int size = values.length;
 			Boolean preposicao = false;
 			for (int i = 0; i < size; i = i + 1) {
