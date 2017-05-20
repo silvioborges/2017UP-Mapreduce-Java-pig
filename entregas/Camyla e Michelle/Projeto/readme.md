@@ -10,7 +10,8 @@
 <h3>2. Subir arquivo para hdfs</h3>
 
 2.1 Executar no terminal: <br>
-<i>hadoop fs -put -f <caminho completo com arquivo final da extração> <pasta destino no hdfs, se houver. Se não passar esse parametro salvará na raiz></i>
+<i>hadoop fs -put -f <caminho completo com arquivo final da extração> <pasta destino no hdfs, se houver. Se não passar esse parametro salvará na raiz></i><br>
+Subir arquivo extraido e stopwords.txt
 
 <h3>3. Contar palavras</h3>
 
