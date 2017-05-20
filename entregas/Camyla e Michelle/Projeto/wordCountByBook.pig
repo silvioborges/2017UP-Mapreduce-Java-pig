@@ -1,4 +1,4 @@
-%declare file 'input/livros.txt'
+%declare file 'input/livros3.txt'
 %declare stopwords 'input/stopwords.txt'
 %declare file_out 'out/'
 
@@ -6,7 +6,6 @@
 livros = LOAD '$file' USING PigStorage('|') AS (caminho:chararray,livro:chararray,capitulo:chararray,texto:chararray);
 describe livros;
 
---ver quantas linhas te,... se é por causa do /n
 --separa palavras
 words = FOREACH livros GENERATE livro, FLATTEN(TOKENIZE(texto)) as word;
 
@@ -30,9 +29,12 @@ wordcount = FOREACH grouped GENERATE group, COUNT(words3) as count;
 --toDisplay = LIMIT wordcount  50;
 --dump toDisplay;
 
+--ordena
+wordCountOrder = ORDER wordcount BY group;
+
 --salva dados no hdfs
-fs -rmr $file_out
-STORE wordcount INTO '$file_out' using PigStorage(';');
+rmf $file_out
+STORE wordCountOrder INTO '$file_out' using PigStorage(';');
 
 
---hadoop fs -cat result.txt input/wordcount.txt
+--hadoop fs -cat result.txt out/part-r-00000.txt
